@@ -291,6 +291,7 @@ type ObjectAttributes struct {
 	SourceProjectID int64      `json:"source_project_id"`
 	TargetProjectID int64      `json:"target_project_id"`
 	StCommits       string     `json:"st_commits"`
+	MergeCommitSHA  string     `json:"merge_commit_sha"`
 	MergeStatus     string     `json:"merge_status"`
 	Content         string     `json:"content"`
 	Format          string     `json:"format"`
